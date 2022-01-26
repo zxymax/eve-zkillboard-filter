@@ -1,0 +1,89 @@
+#list-container {
+  margin-top: 55px;
+  margin-left: 15px;
+  width: 800px;
+  overflow-y: auto;
+}
+
+.list-info {
+  height: 50px;
+  font-size: 24px;
+}
+
+.item-row {
+  width: 780px;
+  display: flex;
+}
+
+.victim-img {
+  width: 40px;
+  float: left;
+  cursor: pointer;
+}
+
+.victim-info {
+  padding-left: 5px;
+  width: 200px;
+  float: left;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.victim-name {
+  font-size: 17px;
+}
+
+.victim-group {
+  display: block;
+  font-size: 14px;
+}
+
+.attacker-group {
+  display: inline-block;
+  width: 325px;
+  height: 40px;
+  font-size: 16px;
+}
+
+.system-info {
+  display: inline-block;
+  width: 140px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.system-name {
+  font-size: 14px;
+}
+
+.system-sec {
+  font-size: 14px;
+}
+
+.high {
+  font-weight: 900;
+  color: yellow;
+}
+
+.low {
+  font-weight: 900;
+  color: orange;
+}
+
+.null {
+  font-weight: 900;
+  color: red;
+}
+
+.system-region {
+  font-size: 14px;
+  display: block;
+}
+
+.kill-time {
+  font-size: 16px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: left;
+}

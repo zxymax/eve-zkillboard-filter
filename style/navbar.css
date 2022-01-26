@@ -1,0 +1,158 @@
+.navbar-container {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  min-width: 1410px;
+  height: 50px;
+  opacity: 1;
+  color: white;
+  font: normal 24px 'Lato';
+  background: #333;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8);
+}
+
+.left-container {
+    float: left;
+    width: 90%;
+}
+
+.right-container {
+  width: 10%;
+  float: right;
+}
+
+.logo-container {
+    float: left;
+    margin-left: 15%;
+    margin-top: 2px;
+}
+
+.kill-counter {
+    float: left;
+    width: 250px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-right: 25px;
+    font-size: 24px;
+}
+
+
+.mode-container {
+  float: left;
+  height: 40px;
+  width: 150px;
+  margin-top: 10px;
+}
+
+.search-container {
+    float: left;
+    margin-left: 25px;
+    display: inline-block;
+    color: #333;
+    height: 40px;
+    padding: 5px 0px 5px 0px;
+}
+
+.search-container input {
+    height: 40px;
+    top: -5px;
+    border-radius: 0px !important;
+}
+
+.option-container {
+  float: left;
+  height: 40px;
+  padding: 5px 0px 5px 0px;
+}
+
+.dropdown-menu-hide {
+  display: none;
+}
+
+.dropdown-menu-visible {
+  position: fixed;
+  background-color: white;
+  width: 250px;
+  color: #333;
+  font-size: 18px;
+  border: 2px solid #333;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8);
+}
+
+.dropdown-spacer {
+  height: 10px;
+}
+
+.dropdown-menu-visible li {
+  padding-bottom: 5px;
+}
+.dropdown-menu-visible span {
+  padding-left: 15px;
+}
+
+.dropdown-menu-visible h2 {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+.filter-match {
+  margin-left: 100px;
+}
+
+.isk-label {
+  margin-left: -15px;
+}
+
+.isk-input-container {
+
+}
+
+.isk-input {
+  padding-left: 10px;
+  width: 75px;
+}
+
+.isk-input-right {
+  margin-left: 10px;
+}
+
+.killmail-input {
+  padding-left: 10px;
+  text-align: center;
+  width: 190px;
+}
+
+button {
+  height: 40px !important;
+  width: 60px !important;
+  border-radius: 0px !important;
+}
+
+button .glyphicon .glyphicon-cog {
+  height: 20px;
+  width: 20px;
+}
+
+.github-logo {
+  float: right;
+  position: relative;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-right: 25px;
+}
+
+.reddit-logo {
+  cursor: pointer;
+  width: 40px;
+  float: right;
+  margin-right: 15px;
+  margin-top: 5px;
+}
